@@ -27,11 +27,10 @@ python cover_zh.py file tw utf8
 
 ##### ***cover_config.res***
 1. 參數 pattern 為允許翻譯的檔案
-```ini
 
+```
 [mapping]
 pattern = *.txt;*.php;*.htm;*.html;*.tpl;*.tmpl;*.js
-
 
 ```
 
