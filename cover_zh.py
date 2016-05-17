@@ -55,7 +55,7 @@ for dirPath, dirNames, fileNames in os.walk(sFilePath):
 				# yield os.path.join(dirPath,name)
 				break
 		if is_check_file == 'no':
-			break
+			continue
 
 		result_content = u''
 		original_content = u''
