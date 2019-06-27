@@ -11,6 +11,9 @@
 1. 增加 簡體轉繁體 或 繁體轉簡體
 2. 原本為讀取檔案改變為讀取資料夾（包含子資料夾）所有檔案的轉換
 
+#### 新增
+1. 轉換為utf8(toutf8.py)
+
 
 #### 用法
 1. cover_zh.py {資料夾} {轉換語系(tw,cn)} {文件原本編碼}
@@ -22,6 +25,9 @@ python cover_zh.py file cn utf8
 
 > 轉繁體
 python cover_zh.py file tw utf8
+
+> 轉UTF8
+python toutf8.py file
 
 ```
 
